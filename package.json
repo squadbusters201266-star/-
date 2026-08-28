@@ -1,0 +1,15 @@
+{
+  "name": "conference-manager",
+  "version": "1.0.0",
+  "description": "Conference Manager — бот для управления беседами ВКонтакте",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7",
+    "vk-io": "^4.9.2"
+  }
+}
